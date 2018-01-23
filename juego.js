@@ -76,10 +76,14 @@ window.onload=function(){
             fila1[i].classList.remove(jugador2)
             fila2[i].classList.remove(jugador2)
             fila3[i].classList.remove(jugador2)  
-            
+
             fila1[i].children[0].src=""
             fila2[i].children[0].src=""
             fila3[i].children[0].src="" 
+
+            fila1[i].children[0].style.display="none"
+            fila2[i].children[0].style.display="none"
+            fila3[i].children[0].style.display="none" 
         }
         jugador1="X"
         jugador2="O"
@@ -103,6 +107,9 @@ window.onload=function(){
             fila2[i].children[0].src=""
             fila3[i].children[0].src=""   
 
+            fila1[i].children[0].style.display="none"
+            fila2[i].children[0].style.display="none"
+            fila3[i].children[0].style.display="none" 
         }
         jugador1="X"
         jugador2="O"
