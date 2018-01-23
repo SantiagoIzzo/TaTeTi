@@ -1,3 +1,7 @@
+img{
+    border: none;
+    outline: none;    
+}
 .casilla{
     width: 80%;
     height: 100%;
