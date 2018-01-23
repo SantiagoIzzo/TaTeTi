@@ -1,0 +1,132 @@
+.casilla{
+    width: 80%;
+    height: 100%;
+}
+body{
+    background-color: #e7e7e7; 
+}
+#main{
+    width:320px;
+    height: 290px;
+    margin: 0px auto;  
+}
+.fila{
+    float: left;
+    width: 100%;
+    height: 33%;
+    background-color:rgba(0, 0, 0, 0.51);
+    margin: 0px auto;  
+    padding-top: 3.5%;
+}
+.estilo-cuadros{
+    float: left;
+    display: inline-block;
+    width: 30%;
+    height: 86%;
+    margin-left: 2.5%;
+    background-color: white;
+    text-align: center;
+}
+@media (orientation: landscape){
+    #main{
+        width:340px;
+        height: 310px;
+        margin: 0px auto;  
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #main{
+        width:300px;
+        height: 250px;
+        margin: 0px auto;  
+    }
+}
+
+#boton-restart{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    display: block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .bordet{
+    border-top-left-radius:15px; 
+    border-top-right-radius:15px; 
+
+  }
+  .bordeb{
+    border-bottom-left-radius:15px; 
+    border-bottom-right-radius:15px; 
+  }
+
+
+#wins {
+    display: none;
+    padding: 25px 50px 25px 50px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius:15px; 
+    border:1px solid white;
+    
+}
+
+.closebtn {
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 4px 7px;
+    cursor: pointer;
+    display: inline;
+}
+#yes {
+    border: 1px solid white;
+    background-color: #4CAF50;    
+    color: white;
+    width: 100%;
+}
+.centrado-porcentual {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.separacion{
+    margin-bottom: 3px;
+}
