@@ -5,6 +5,7 @@ img{
 .casilla{
     width: 80%;
     height: 100%;
+    display: none;
 }
 body{
     background-color: #e7e7e7; 

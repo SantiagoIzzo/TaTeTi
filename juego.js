@@ -117,6 +117,7 @@ window.onload=function(){
     fila1[0].onclick=function(){
         
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"
             this.classList.add(turno)            
             tablero[0]=turno
@@ -132,6 +133,7 @@ window.onload=function(){
     }
     fila1[1].onclick=function(){
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){    
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"         
             this.classList.add(turno)
             tablero[1]=turno       
@@ -148,6 +150,7 @@ window.onload=function(){
     }
     fila1[2].onclick=function(){
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){                    
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"            
             this.classList.add(turno)
             tablero[2]=turno
@@ -166,6 +169,7 @@ window.onload=function(){
     //FILA2
     fila2[0].onclick=function(){
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){ 
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"            
             this.classList.add(turno)        
             tablero[3]=turno     
@@ -182,6 +186,7 @@ window.onload=function(){
     }
     fila2[1].onclick=function(){
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"
             this.classList.add(turno)
             tablero[4]=turno
@@ -198,6 +203,7 @@ window.onload=function(){
     }
     fila2[2].onclick=function(){
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"            
             this.classList.add(turno)
             tablero[5]=turno    
@@ -216,6 +222,7 @@ window.onload=function(){
     //FILA3
     fila3[0].onclick=function(){
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"           
             this.classList.add(turno)
             tablero[6]=turno
@@ -232,6 +239,7 @@ window.onload=function(){
     }
     fila3[1].onclick=function(){
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"            
             this.classList.add(turno)
             tablero[7]=turno
@@ -248,6 +256,7 @@ window.onload=function(){
     }
     fila3[2].onclick=function(){
         if(!finDelJuego && !this.classList.contains("O") && !this.classList.contains("X")){
+            this.children[0].style.display="inline"
             this.children[0].src="img/"+turno+".png"            
             this.classList.add(turno)
             tablero[8]=turno
